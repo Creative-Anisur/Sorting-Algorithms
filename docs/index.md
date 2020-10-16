@@ -64,18 +64,18 @@ Merge(A,p,q,r):
 ```markdowon
 
 Quicksort(A,p,r):		
-1.if p < r		
-2.	 q = Partition(A,p,r)		
-3.	 Quicksort(A,p,q - 1)		
-4.	 Quicksort(A,q + 1,r)
+1. if p < r		
+2. q = Partition(A,p,r)		
+3. Quicksort(A,p,q - 1)		
+4. Quicksort(A,q + 1,r)
 
 Partition(A,p,r):		
 1. i = p-1		
-2.	for j = p to r-1		
-3.	    if A[j] ≤ A[r]		
-4	        i = i + 1		
-5.	     exchange A[i] with A[j]		
-6.  exchange A[i+1] with A[r]
+2. for j = p to r-1		
+3. if A[j] ≤ A[r]		
+5. i = i + 1		
+5. exchange A[i] with A[j]		
+6. exchange A[i+1] with A[r]
 7. return i+1
 ```
 
