@@ -1,7 +1,7 @@
 ## Algorithm Visualization:
 ### Sorting Algorithms:
 
-[Insertion Sort:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
+[Insertion Sort-1:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
 ```markdown
 
 InsertionSort(A):
@@ -14,13 +14,32 @@ InsertionSort(A):
 6. i = i - 1		
 7. A[i + 1] = key
 ```
+[Insertion Sort-2:](https://insertion-sort-demo.herokuapp.com/index.html)
+```markdown
+
+const insertionSort = function (array) {
+    for(let i = 1; i < array.length; i++) {
+        const currentValue = array[i];
+        let j;
+
+        for(j = i - 1; j >= 0; j--) {
+          if(array[j] <= currentValue) break;
+          array[j + 1] = array[j]
+        }
+
+         array[j + 1] = currentValue;
+      }
+
+      return array;
+    }
+```
 
 [Selection Sort:](http://rosulek.github.io/vamonos/demos/selection_sort.html)
 ```markdown
 
 SelectionSort(A):
 
-1. for i = 0 to A.length-2 //find smallest item in A[i..]		
+1. for i = 0 to A.length-2  //find smallest item in A[i..]		
 2. m = i		
 3. for j = i+1 to A.length-1		
 4. if A[j] < A[m]		
@@ -78,4 +97,5 @@ Partition(A,p,r):
 6. exchange A[i+1] with A[r]		
 7. return i+1
 ```
+
 
