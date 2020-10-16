@@ -13,6 +13,8 @@ InsertionSort(A):
 6. i = i - 1		
 7. A[i + 1] = key
 
+##
+
 [Selection Sort:](http://rosulek.github.io/vamonos/demos/selection_sort.html)
 ```markdown
 
@@ -22,11 +24,7 @@ SelectionSort(A):
 3. for j = i+1 to A.length-1		
 4. if A[j] < A[m]		
 5. m = j		
-6. swap A[i] and A[m]
-
-
-```markdown
-Syntax highlighted code block
+6. swap A[i] and A[j]
 
 # Header 1
 ## Header 2
