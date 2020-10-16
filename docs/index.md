@@ -1,7 +1,7 @@
 ## Algorithm Visualization:
 ### Sorting Algorithms:
 
-[Bubble Sort:](https://anisurrahmanlikhon.github.io/Bubble-Sort-Algorithm/)
+[Bubble Sort: Click here for demo](https://anisurrahmanlikhon.github.io/Bubble-Sort-Algorithm/)
 ```markdown
 
 1. swapped = true
@@ -13,7 +13,7 @@
 7.		swapped = true
 ```
 
-[Insertion Sort-1:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
+[Insertion Sort-1: Click here for demo](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
 ```markdown
 
 InsertionSort(A):
@@ -26,7 +26,7 @@ InsertionSort(A):
 6. i = i - 1		
 7. A[i + 1] = key
 ```
-[Insertion Sort-2_Javascript:](https://insertion-sort-demo.herokuapp.com/index.html)
+[Insertion Sort-2: Click here for demo](https://insertion-sort-demo.herokuapp.com/index.html)
 ```markdown
 
 1. const insertionSort = function (array) {
@@ -45,7 +45,7 @@ InsertionSort(A):
 12.  }
 ```
 
-[Selection Sort:](http://rosulek.github.io/vamonos/demos/selection_sort.html)
+[Selection Sort: Click here for demo](http://rosulek.github.io/vamonos/demos/selection_sort.html)
 ```markdown
 
 SelectionSort(A):
@@ -57,7 +57,7 @@ SelectionSort(A):
 5. m = j		
 6. swap A[i] and A[j]
 ```
-[Merge Sort](http://rosulek.github.io/vamonos/demos/mergesort.html)
+[Merge Sort: Click here for demo](http://rosulek.github.io/vamonos/demos/mergesort.html)
 ```markdown
 
 MergeSort(A,p,r):
@@ -90,7 +90,7 @@ Merge(A,p,q,r):
 18. j = j + 1
 ```
 
-[QuickSort](http://rosulek.github.io/vamonos/demos/quicksort.html)
+[QuickSort: Click here for demo](http://rosulek.github.io/vamonos/demos/quicksort.html)
 ```markdown
 
 Quicksort(A,p,r):	
@@ -108,7 +108,7 @@ Partition(A,p,r):
 6. exchange A[i+1] with A[r]		
 7. return i+1
 ```
-[Stooge Sort:](http://rosulek.github.io/vamonos/demos/stoogesort.html)
+[Stooge Sort: Click here for demo](http://rosulek.github.io/vamonos/demos/stoogesort.html)
 
 ```markdown
 
