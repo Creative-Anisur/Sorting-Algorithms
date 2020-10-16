@@ -13,9 +13,10 @@ InsertionSort(A):
 6. i = i - 1		
 7. A[i + 1] = key
 
-[Selection Sort](http://rosulek.github.io/vamonos/demos/selection_sort.html)
+[Selection Sort:](http://rosulek.github.io/vamonos/demos/selection_sort.html)
 ```markdown
 
+SelectionSort(A):
 1. for i = 0 to A.length-2 /find smallest item in A[i..]		
 2. m = i		
 3. for j = i+1 to A.length-1		
