@@ -20,7 +20,7 @@ InsertionSort(A):
 
 SelectionSort(A):
 
-1. for i = 0 to A.length-2 /find smallest item in A[i..]		
+1. for i = 0 to A.length-2 //find smallest item in A[i..]		
 2. m = i		
 3. for j = i+1 to A.length-1		
 4. if A[j] < A[m]		
