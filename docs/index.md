@@ -1,6 +1,18 @@
 ## Algorithm Visualization:
 ### Sorting Algorithms:
 
+[Bubble Sort:](https://anisurrahmanlikhon.github.io/Bubble-Sort-Algorithm/)
+```markdown
+
+1. swapped = true
+2. while swapped
+3.   swapped = false
+4.   for j from 0 to N - 1
+5.	if a[j] > a[j + 1]
+6.		swap( a[j], a[j + 1] )
+7.		swapped = true
+```
+
 [Insertion Sort-1:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
 ```markdown
 
@@ -14,24 +26,23 @@ InsertionSort(A):
 6. i = i - 1		
 7. A[i + 1] = key
 ```
-[Insertion Sort-2:](https://insertion-sort-demo.herokuapp.com/index.html)
+[Insertion Sort-2_Javascript:](https://insertion-sort-demo.herokuapp.com/index.html)
 ```markdown
 
-const insertionSort = function (array) {
-    for(let i = 1; i < array.length; i++) {
-        const currentValue = array[i];
-        let j;
+1. const insertionSort = function (array) {
+2.  for(let i = 1; i < array.length; i++) {
+3.       const currentValue = array[i];
+4.      let j;
 
-        for(j = i - 1; j >= 0; j--) {
-          if(array[j] <= currentValue) break;
-          array[j + 1] = array[j]
-        }
+5.      for(j = i - 1; j >= 0; j--) {
+6.      if(array[j] <= currentValue) break;
+7.       array[j + 1] = array[j]
+8.      }
 
-         array[j + 1] = currentValue;
-      }
-
-      return array;
-    }
+9.       array[j + 1] = currentValue;
+10.    }
+11. return array;
+12.  }
 ```
 
 [Selection Sort:](http://rosulek.github.io/vamonos/demos/selection_sort.html)
@@ -97,5 +108,18 @@ Partition(A,p,r):
 6. exchange A[i+1] with A[r]		
 7. return i+1
 ```
+[Stooge Sort:](http://rosulek.github.io/vamonos/demos/stoogesort.html)
 
+```markdown
+
+StoogeSort(A,l,r):	
+	
+1. if A[r] < A[l]		
+2. swap A[r] and A[l]		
+3. if r - l > 1		
+4. t = floor((r - l + 1)/3)		
+5. StoogeSort(A,l,r-t)		
+6. StoogeSort(A,l+t,r)		
+7. StoogeSort(A,l,r-t)
+```
 
