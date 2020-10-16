@@ -5,6 +5,7 @@
 ```markdown
 
 InsertionSort(A):
+
 1. for j = 2 to A.length		
 2. key = A[j]		
 3. i = j - 1
@@ -29,14 +30,16 @@ SelectionSort(A):
 [Merge Sort](http://rosulek.github.io/vamonos/demos/mergesort.html)
 ```markdown
 
-MergeSort(A,p,r):		
+MergeSort(A,p,r):
+		
 1. if p < r		
 2. q = [(p+r)/2]		
 3. MergeSort(A,p,q)	
 4. MergeSort(A,q+1,r)	
 5. Merge(A,p,q,r)
 
-Merge(A,p,q,r):		
+Merge(A,p,q,r):	
+	
 1. n1 = q - p + 1		
 2. n2 = r - q		
 3. let L, R be new arrays		
@@ -56,3 +59,23 @@ Merge(A,p,q,r):
 17. A[k] = R[j]		
 18. j = j + 1
 ```
+
+[QuickSort](http://rosulek.github.io/vamonos/demos/quicksort.html)
+```markdowon
+
+Quicksort(A,p,r):		
+1.if p < r		
+2.	 q = Partition(A,p,r)		
+3.	 Quicksort(A,p,q - 1)		
+4.	 Quicksort(A,q + 1,r)
+
+Partition(A,p,r):		
+1. i = p-1		
+2.	for j = p to r-1		
+3.	    if A[j] ≤ A[r]		
+4	        i = i + 1		
+5.	     exchange A[i] with A[j]		
+6.  exchange A[i+1] with A[r]
+7. return i+1
+```
+
