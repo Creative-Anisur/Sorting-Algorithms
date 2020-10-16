@@ -1,5 +1,4 @@
-## Algorithm Visualization:
-### Sorting Algorithms:
+## Sorting Algorithms:
 
 [Bubble Sort: Click here for demo](https://anisurrahmanlikhon.github.io/Bubble-Sort-Algorithm/)
 ```markdown
