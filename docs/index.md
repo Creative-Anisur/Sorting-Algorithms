@@ -1,4 +1,19 @@
-## Welcome to GitHub Pages
+## Algorithm Visualization:
+### Sorting Algorithms:
+
+[insertion Sort:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
+```markdown
+
+InsertionSort(A):
+1. for j = 2 to A.length		
+2. key = A[j]		
+3. i = j - 1
+4. while i > 0 and A[i] > key		
+5. A[i + 1] = A[i]
+6. i = i - 1		
+7. A[i + 1] = key
+
+
 
 You can use the [editor on GitHub](https://github.com/anisurrahmanlikhon/Sorting-Algorithms/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
