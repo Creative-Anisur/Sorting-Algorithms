@@ -13,15 +13,15 @@ InsertionSort(A):
 6. i = i - 1		
 7. A[i + 1] = key
 
+[Selection sort](http://rosulek.github.io/vamonos/demos/selection_sort.html)
+```markdown
+1. for i = 0 to A.length-2 /find smallest item in A[i..]		
+2. m = i		
+3. for j = i+1 to A.length-1		
+4. if A[j] < A[m]		
+5. m = j		
+6. swap A[i] and A[m]
 
-
-You can use the [editor on GitHub](https://github.com/anisurrahmanlikhon/Sorting-Algorithms/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
