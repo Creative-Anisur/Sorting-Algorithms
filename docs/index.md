@@ -1,7 +1,7 @@
 ## Algorithm Visualization:
 ### Sorting Algorithms:
 
-[insertion Sort:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
+[Insertion Sort:](http://rosulek.github.io/vamonos/demos/insertion_sort.html)
 ```markdown
 
 InsertionSort(A):
@@ -18,34 +18,41 @@ InsertionSort(A):
 ```markdown
 
 SelectionSort(A):
+
 1. for i = 0 to A.length-2 /find smallest item in A[i..]		
 2. m = i		
 3. for j = i+1 to A.length-1		
 4. if A[j] < A[m]		
 5. m = j		
 6. swap A[i] and A[j]
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+[Merge Sort](http://rosulek.github.io/vamonos/demos/mergesort.html)
+```markdown
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+MergeSort(A,p,r):		
+1. if p < r		
+2. q = [(p+r)/2]		
+3. MergeSort(A,p,q)	
+4. MergeSort(A,q+1,r)	
+5. Merge(A,p,q,r)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anisurrahmanlikhon/Sorting-Algorithms/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Merge(A,p,q,r):		
+1. n1 = q - p + 1		
+2. n2 = r - q		
+3. let L, R be new arrays		
+4. for i = 1 to n1	
+5. L[i] = A[p+i-1]		
+6. for j = 1 to n2		
+7. R[j] = A[q+j]		
+8. L[n1+1] = ∞		
+9. R[n2+1] = ∞		
+10. i = 1		
+11. j = 1		
+12. for k = p to r		
+13. if L[i] ≤ R[j]		
+14. A[k] = L[i]		
+15. i = i + 1		
+16. else		
+17. A[k] = R[j]		
+18. j = j + 1
+```
